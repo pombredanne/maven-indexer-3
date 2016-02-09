@@ -37,6 +37,8 @@ public class SampleMavenIndexer {
 }
 ```
 
-Build your app and run with `java -jar /path/to/your/boot.jar [--maven.repository.base=https://repo1.maven.org/maven2]`
+Build your app and run with
+
+`java -jar /path/to/your/boot.jar [--maven.repository.base=https://repo1.maven.org/maven2]`
 
 By default, the app points to Maven Central
