@@ -5,7 +5,7 @@
 
 	<groupId>com.ecsteam.cloudfoundry</groupId>
 	<artifactId>maven-indexer</artifactId>
-	<version>1.0.0.RELEASE</version>
+	<version>1.0.1.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>maven-indexer</name>
@@ -53,10 +53,6 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
