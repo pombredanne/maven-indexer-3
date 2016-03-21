@@ -12,16 +12,30 @@
  */
 package com.ecsteam.cloudfoundry.maven.indexer;
 
+import java.util.Comparator;
+
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class MavenIndexerConfiguration {
 	
 	@Bean
-	@Primary
+	@ConditionalOnMissingBean(MavenIndexerController.class)
 	public MavenIndexerController mavenIndexController() {
 		return new MavenIndexerController();
+	}
+	
+	@Bean
+	@ConditionalOnMissingBean(XmlUtility.class)
+	public XmlUtility xmlUtility() {
+		return new XmlUtility();
+	}
+	
+	@Bean(name = "versionOrdering")
+	@ConditionalOnMissingBean(name = "versionOrdering")
+	public Comparator<String> versionOrdering() {
+		return String.CASE_INSENSITIVE_ORDER.reversed();
 	}
 }

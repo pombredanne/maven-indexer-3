@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>authid</groupId>
+  <artifactId>artifactid</artifactId>
+  <version>1.3.3.RELEASE</version>
+  <versioning>
+    <latest>1.3.3.RELEASE</latest>
+    <release>1.3.3.RELEASE</release>
+    <versions>
+      <version>1.3.0.RELEASE</version>
+      <version>1.3.1.RELEASE</version>
+      <version>1.3.2.RELEASE</version>
+      <version>1.3.3.RELEASE</version>
+    </versions>
+    <lastUpdated>20160226095312</lastUpdated>
+  </versioning>
+</metadata>
