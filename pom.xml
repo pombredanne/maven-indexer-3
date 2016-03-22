@@ -14,6 +14,18 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	<developers>
+		<developer>
+			<name>Josh Ghiloni</name>
+			<organization>ECS Team</organization>
+			<email>jghiloni at ecsteam dot com</email>
+			<organizationUrl>http://www.ecsteam.com</organizationUrl>
+			<roles>
+				<role>Principal Consultant</role>
+			</roles>
+		</developer>
+	</developers>
 
 	<distributionManagement>
 		<snapshotRepository>
@@ -144,6 +156,8 @@
 	<scm>
 		<url>https://github.com/ECSTeam/maven-indexer</url>
 		<connection>scm:git:git//github.com/ECSTeam/maven-indexer.git</connection>
+		<developerConnection>Josh Ghiloni</developerConnection>
+		<tag>1.0.2.RELEASE</tag>
 	</scm>
 	<organization>
 		<name>ECS Team, Inc.</name>
@@ -160,4 +174,5 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<url>https://github.com/ECSTeam/maven-indexer</url>
 </project>
