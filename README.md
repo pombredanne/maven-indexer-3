@@ -14,7 +14,7 @@ Add to your pom.xml:
 <dependency>
   <groupId>com.ecsteam.cloudfoundry</groupId>
   <artifactId>maven-indexer</artifactId>
-  <version>1.0.2.SNAPSHOT</version>
+  <version>1.0.2.RELEASE</version>
 </dependency>
 ```
 
